@@ -1,0 +1,94 @@
+.main-p {
+    font-weight: 500;
+    text-transform: inherit;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+  }
+  .card-header {
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  .card-body {
+    padding: 7px;
+    margin: 0;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+  }
+  .card {
+    margin-bottom: 7px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  .btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none !important;
+  }
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #007bff;
+    border: none;
+    outline: none !important;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 15px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: "\21bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .ansclick {
+    cursor: pointer;
+  }
+  .alert {
+    margin-bottom: 10px !important;
+  }
+  .well {
+    margin-bottom: 10px !important;
+  }
+  

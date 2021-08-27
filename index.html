@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Random</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="./logo.ico">
+ </head>
+
+<body >
+	<div class="container" style="margin-top: 10px;" >
+		<div class="well well-sm text-center" style="font-weight: bold; letter-spacing: 10px;">RANDOM</div>
+		<div class="btn-group btn-group-justified" style="padding: 5px;"> <a href="#" class="btn btn-primary active" id="randomt">Random Things</a> <a href="#" class="btn btn-primary" id="triviaq">Trivia</a> </div>
+	</div>
+
+	<div class="container" id="rtd">
+		<!-- <button class="btn btn-block btn-primary" id="refersh">Refersh</button> -->
+		<div class="card" style="margin-top: 8px;">
+			<div class="card-header"> Motivation
+				<button class="button" id="mr" style="vertical-align:middle"><span>refersh </span></button>
+			</div>
+			<div class="card-body">
+				<p class="main-p" id="advicetext">Loading ...</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header"> jocks
+				<button class="button" id="jr" style="vertical-align:middle"><span>refersh </span></button>
+			</div>
+			<div class="card-body">
+				<p class="main-p" id="jocks">Loading ...</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header">Facts
+				<button class="button" id="fr" style="vertical-align:middle"><span>refersh </span></button>
+			</div>
+			<div class="card-body">
+				<p class="main-p" id="fact">Loading ...</p>
+			</div>
+		</div>
+		<div class="well well-sm text-center" style="font-weight: bold; letter-spacing: 10px;">SPECTRUM</div>
+	</div>
+	<div class="container" id="ttd" style="display: none;">
+		<div class="panel panel-default">
+			<div class="panel-heading">TRIVIA
+				<button class="btn btn-warning" style="margin-left: 10px;" id="newquiz">New Question</button>
+				<button class="btn btn-primary" style="cursor: context-menu; text-transform: capitalize;" id="catagory"></button>
+				<button class="btn btn-primary" style="cursor: context-menu; text-transform: capitalize;" id="difficulty"></button>
+				<!-- <button class="btn btn-primary" style="cursor: context-menu; text-transform: capitalize;" id="type"></button> -->
+			</div>
+			<div class="panel-body">
+				<div class="well" id="triviaQus">Loading ....</div>
+				<div class="answer" id="answer"> Loading ....
+					<div class="alert alert-info ansclick"> <strong>Loading ... </strong> </div>
+				</div>
+			</div>
+		</div>
+		<div class="well well-sm text-center" style="font-weight: bold; letter-spacing: 10px;">SPECTRUM</div>
+
+	</div>
+</body>
+<script src="./eventBrowser.js"></script>
+</body>
+<script src="./trivia.js"></script>
+
+</html>
